@@ -1,0 +1,149 @@
+body {
+    font-family: monospace;
+    font-style: oblique;
+    background-color:aliceblue;
+    margin: 0px;
+    
+    }
+
+
+
+.header {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    background-color: white;
+    /*border: solid black 2px;*/
+}
+
+.header-links{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+
+    margin-right: 400px;
+    gap: 64px;
+}
+
+.header img {
+    width: 100px;
+    height: auto;
+    margin-left: 100px;
+    
+    
+}
+    
+
+.top {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 240px;
+    align-items: center;
+   
+
+   
+}
+.top img {
+    height: 200px;
+    width: auto;
+    border: solid white 10px;
+    /*box-shadow: 0px 0px 0px 1px black;*/
+    
+    border-radius: 100%;
+
+    
+}
+
+.topl, .topr {
+    
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-top: 160px;
+    
+}
+
+.topr {
+    
+    margin-right: 400px;
+    align-items:end;
+
+}
+
+.topl {
+    align-items: start;
+    margin-left: 100px
+}
+
+
+a {
+
+ text-decoration: none;
+}
+
+button {
+    
+    font-size: 26px;
+    font-weight: 700;
+    background: lavender;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-family: monospace;
+    font-style: oblique;
+    cursor: pointer;
+    margin-top: 16px;
+    border-color: aliceblue;
+  
+  }
+
+
+.mtittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: white;
+    /*border: solid black 2px;*/
+}
+
+.middle {
+
+    
+    display: flex;
+    padding-top: 230px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding-bottom: 230px;
+}
+
+.middle img {
+
+    width: 200px;
+    height: 200px;
+    border: solid white 10px;
+    border-radius: 50%;
+    /*box-shadow: 0px 0px 0px 2px black;*/
+}
+
+.middle p {
+    text-align: center;
+}
+
+.middledown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 400px;
+    background-color: white;
+    /*box-shadow: 0px 0px 0px 2px black;*/
+
+        
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
